@@ -1,0 +1,24 @@
+
+
+th{
+    text-align: left;
+    font: 1.5em sans-serif;
+}
+th, td {
+    padding:5px 20px;
+}
+
+tbody > tr:hover{
+    color: #ffffff;
+    background-color: #b1728fc4;
+    cursor: pointer;
+}
+
+.btn {       
+    color:#ffffff;
+    background-color: #b1728fc4;
+ }
+ 
+ .statusRight{
+    text-align: center;
+ }

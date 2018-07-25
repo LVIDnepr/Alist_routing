@@ -1,0 +1,7 @@
+<div class="container">
+  <app-navigastion
+    [selectPage]="selectPage"
+    (pageChange)="changePage($event)"
+    ></app-navigastion>
+  <router-outlet></router-outlet>
+</div>

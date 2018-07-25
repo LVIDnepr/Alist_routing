@@ -1,0 +1,16 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Task</th>
+      <th class="statusRight" scope="col">Status</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr scope="row" *ngFor="let task of taskList" [routerLink]="[task.id]">
+      <td >{{task.id}}</td>
+      <td>{{task.name}}</td>
+      <td class="statusRight"><input class="btn" id="status" [(ngModel)]="task.status"></td>      
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="navbar navbar-light" style="background-color: #b1728fc4;" id="navbarNav">
+    <ul class="navbar-nav ">
+    <li class="nav-item"
+      [ngClass]="{active: isActivePage('Alist')}"
+      routerLink="">
+        List task
+      </li>
+    <li class="nav-item"
+      [ngClass]="{active: isActivePage('add')}"
+      routerLink="add"
+      >
+        Add Task
+      </li>
+    </ul>
+  </div>
+</nav>
