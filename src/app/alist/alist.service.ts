@@ -42,4 +42,9 @@ export class AlistService {
 
     return task;
   }
+
+  changeStatus(task: Task): Task{
+    task.status="Done";
+    return task;
+  }
 }

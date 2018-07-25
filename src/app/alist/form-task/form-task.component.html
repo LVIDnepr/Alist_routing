@@ -8,7 +8,7 @@
 
   <div class="form-group">
   <label for="status">Status</label><br />
-  <input class="form-control" type="text" name="status" id="status" [(ngModel)]="task.status"><br />
+  <input class="form-control" type="text" name="status" id="status" [(ngModel)]="task.status" [ngClass]="{Done: isActive('Done')}"><br />  
   </div>
 
   <div class="form-group" >

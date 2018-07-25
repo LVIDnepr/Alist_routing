@@ -11,10 +11,7 @@ export class FormTaskComponent{
   @Output() save = new EventEmitter<Task>()
   @Output() cancel = new EventEmitter<void>()
 
-  statusTask = [
-    { id: 0, name: "Working" },
-    { id: 1, name: "Done" }
-  ];
+  
 
   constructor() { }
 
@@ -25,4 +22,6 @@ export class FormTaskComponent{
   onCancelBtnClick(){
     this.cancel.emit();
   }
+
+
 }
